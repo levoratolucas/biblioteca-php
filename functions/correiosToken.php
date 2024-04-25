@@ -1,7 +1,7 @@
 <?php 
-$usuario = "47673531000109";
-$codigo_acesso = "miMGGU7NyrawqBZdqVMNDqKZaTzZHmxbgUNVvhVi";
-$numero_cartao_postagem = "0077563182";
+$usuario = "USUARIO DE ACESSO DO CONTRATO";
+$codigo_acesso = "TOKEM DE ACESSO POR CONTRATO";
+$numero_cartao_postagem = "NUMERO CARTÃO POSTAGEM";
 function obterToken($usuario, $codigo_acesso, $numero_cartao_postagem) {
     $api_url = "https://api.correios.com.br/token/v1/autentica/cartaopostagem";
 
